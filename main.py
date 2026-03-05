@@ -4,7 +4,9 @@ Important imports
 import sys
 import os
 
-from game_rules import character
+from game_rules import NpcAndPlayerRules
+from game_rules import itemRules
+from game_rules import importantNpcs
 
 
 """
@@ -18,4 +20,3 @@ def claer_termianl():
         _ = os.system('cls')
     else:
         _ = os.system("clear")
-
